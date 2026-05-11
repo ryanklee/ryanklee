@@ -1,33 +1,44 @@
 # Ryan Kleeberger
 
-Building Hapax — a single-operator cognitive infrastructure that externalizes executive function for a neurodivergent solo operator. 180 agents, constitutional governance with algebraic proofs, multi-lane AI coordination, multimodal perception, and a 24/7 livestream as research instrument. Running on one workstation, for one person.
+Building Hapax: a single-operator operating environment for externalized executive function and empirical AI-safety research. It combines multimodal perception, semantic recruitment, constitutional governance, refusal-as-data, and a studio/livestream research instrument on one workstation for one person.
+
+This is research infrastructure, not a product or community project. It is not seeking contributors, support tickets, or public feature requests.
 
 ## Hapax
 
-| | |
+| Surface | Current public state |
 |---|---|
-| **What** | Single-operator operating environment: perception, reasoning, action, and self-governance running as one integrated system |
-| **Scale** | 180 agents, 326 systemd units, 30,000+ tests, 2,800+ merged PRs, 13 Docker containers, 5 Raspberry Pis |
-| **Governance** | 5 constitutional axioms with algebraic verification — consent labels (DLM join-semilattice), provenance (PosBool(X) semiring), deny-wins composition. Extracted as [`agentgov`](https://github.com/ryanklee/hapax-council/tree/main/packages/agentgov) (MIT) |
-| **Coordination** | Up to 10 concurrent AI sessions (Claude Code, Codex, Gemini CLI) with relay protocol, triage officer, quota partitioning |
-| **Perception** | Voice daemon, 3 USB cameras with GPU compositor, IR fleet, wearable biometrics, 60-node WGSL shader expression engine |
-| **Research** | Grounding theory (Clark & Brennan 1991), SCED methodology, refusal-as-data. Cycle 1 pilot complete; Cycle 2 in progress |
+| What | Single-operator operating environment: perception, reasoning, action, and self-governance running as one integrated system |
+| Scale | 180+ agent modules, 330+ systemd unit files, 13 Docker containers, 5 Raspberry Pis, 60 WGSL shader nodes |
+| Governance | 5 constitutional axioms with algebraic verification: consent labels, provenance semiring, deny-wins composition |
+| Coordination | Multi-lane AI work through Claude Code, Codex, and Gemini CLI using relay files, task claims, and PR gates |
+| Perception | Voice daemon, USB-camera compositor, IR fleet, wearable biometrics, phone context, visual expression engine |
+| Research | Grounding attempts, claim authority, refusal/correction behavior, privacy-preserving public egress, and agentic oversight |
 
-### Entry points
+## Public repos
 
-- **Start here:** [`START_HERE.md`](https://github.com/ryanklee/hapax-council/blob/main/START_HERE.md) — short dossier for reviewers and researchers
-- **Primary runtime:** [`hapax-council`](https://github.com/ryanklee/hapax-council) — the system itself
-- **Governance spec:** [`hapax-constitution`](https://github.com/ryanklee/hapax-constitution) — axioms, implications, canons
-- **Management support:** [`hapax-officium`](https://github.com/ryanklee/hapax-officium) — decision support system
-- **MCP bridge:** [`hapax-mcp`](https://github.com/ryanklee/hapax-mcp) — 38-tool MCP server for Claude Code
-- **Weblog:** [hapax.weblog.lol](https://hapax.weblog.lol/) — manifesto, refusal brief, research notes
+| Repo | Role |
+|---|---|
+| [hapax-council](https://github.com/hapax-systems/hapax-council) | Primary runtime and research artifact |
+| [agentgov](https://github.com/hapax-systems/agentgov) | Extracted governance hooks/package for AI coding agents |
+| [hapax-constitution](https://github.com/ryanklee/hapax-constitution) | Governance specification: axioms, implications, canons; publishes `hapax-sdlc` |
+| [hapax-officium](https://github.com/ryanklee/hapax-officium) | Management decision support cockpit |
+| [hapax-assets](https://github.com/ryanklee/hapax-assets) | SHA-pinned aesthetic-library CDN |
 
-### Research framing
+Not public as of 2026-05-11: `hapax-mcp`, `hapax-watch`, and `hapax-phone` are private surfaces. They are not listed here as live public repos.
 
-> Grounding Attempts as Safety Artifacts: A Live Benchmark for Agentic Claim Confidence, Refusal, and Public Egress.
+## Entry points
 
-This is research infrastructure, not a product or community project. The system studies what it means for an agentic system to know what it knows, refuse what it must, and govern what it publishes — under real operational constraints, running 24/7.
+- [Start here](https://github.com/hapax-systems/hapax-council/blob/main/START_HERE.md): short dossier for reviewers and researchers.
+- [Primary runtime](https://github.com/hapax-systems/hapax-council): the Hapax operating environment.
+- [Governance spec](https://github.com/ryanklee/hapax-constitution): axioms, implications, canons.
+- [Refusal brief](https://hapax.weblog.lol/refusal-brief): refusal-as-data public artifact.
+- [Manifesto](https://hapax.weblog.lol/hapax-manifesto-v0): authorship and artifact posture.
 
-Relevant to: empirical AI safety evaluation, agentic oversight, grounded claim authority, privacy-preserving public egress, multi-agent coordination.
+## Research framing
 
-DOI: [10.5281/zenodo.20113515](https://doi.org/10.5281/zenodo.20113515) · ORCID: [0009-0001-5146-4548](https://orcid.org/0009-0001-5146-4548)
+Working title: **Grounding Attempts as Safety Artifacts: A Live Benchmark for Agentic Claim Confidence, Refusal, and Public Egress.**
+
+The system studies whether an agentic environment can know what it is entitled to claim, refuse when evidence or governance is insufficient, and keep public/private boundaries intact under operational pressure. Current evidence should be read by ceiling: implemented infrastructure, pilot SCED evidence, spec-ready contracts, dry-run publication paths, and public-archive artifacts are separate states.
+
+DOI: [10.5281/zenodo.20113515](https://doi.org/10.5281/zenodo.20113515). ORCID: [0009-0001-5146-4548](https://orcid.org/0009-0001-5146-4548).
