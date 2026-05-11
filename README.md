@@ -1,4 +1,4 @@
-# Ryan Kleeberger
+# The Operator - Hapax
 
 Building Hapax: a single-operator operating environment for externalized executive function and empirical AI-safety research. It combines multimodal perception, semantic recruitment, constitutional governance, refusal-as-data, and a studio/livestream research instrument on one workstation for one person.
 
