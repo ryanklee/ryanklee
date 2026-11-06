@@ -1,30 +1,17 @@
-# Hapax Systems
+# Personal GitHub Account
 
-Building Hapax: a single-operator operating environment for externalized
-executive function and research on evidence-bound AI-agent work. First-party
-work lives in the [hapax-systems](https://github.com/hapax-systems)
-organization; this personal account is a pointer, not a source of truth.
+This personal GitHub account is separate from institutional research, publication, and software governance surfaces. It is not an institutional communication, support, or disclosure channel.
 
-This is research infrastructure, not a product or community project. It does
-not seek contributors, support tickets, or public feature requests.
+## Hapax Research Lab
 
-## Where to look
+Institutional research, falsifiable commitments, source-review cards, and source-available governance software are published by **Hapax Research Lab**:
 
-- [Organization overview](https://github.com/hapax-systems) — portfolio, reader value, and claim ceilings.
-- [Start here](https://github.com/hapax-systems/hapax-council/blob/main/START_HERE.md) — short reviewer dossier.
-- [hapax-council](https://github.com/hapax-systems/hapax-council) — source-visible research/runtime estate.
-- [agentgov](https://github.com/hapax-systems/agentgov) — MIT-licensed governance hooks for AI coding agents.
-- [reins](https://github.com/hapax-systems/reins) — cockpit/read-preview product surface (BSL 1.1, source-available).
-- [hapax-constitution](https://github.com/hapax-systems/hapax-constitution) — governance specification; publishes `hapax-sdlc`.
-- [Public weblog](https://hapax.weblog.lol/) — witnessed cases and public artifacts.
-- [Refusal Brief](https://hapax.weblog.lol/2026/04/refusal-brief-an-automation-tractability-disclosure) — refusal-as-data public artifact.
-
-## Reading claims
-
-Repository READMEs are orientation, not freshness witnesses. Treat "current"
-claims as bounded by each repository's own receipts and claim ceilings; where
-a receipt is missing or stale, the safe reading is "inspectable mechanism or
-plan," not "current shipped capability."
-
-DOI: [10.5281/zenodo.20113515](https://doi.org/10.5281/zenodo.20113515) ·
-ORCID: [0009-0001-5146-4548](https://orcid.org/0009-0001-5146-4548)
+- **Research Portal & Commitments Register:** [hapaxresearch.com](https://hapaxresearch.com)
+- **GitHub Organization:** [github.com/hapax-systems](https://github.com/hapax-systems)
+  - [reins](https://github.com/hapax-systems/reins) — terminal cockpit for observing and previewing governed AI-agent delivery lifecycles (BSL 1.1)
+  - [hapax-constitution](https://github.com/hapax-systems/hapax-constitution) — constitutional governance specification and `hapax-sdlc` validator
+  - [hapax-spine](https://github.com/hapax-systems/hapax-spine) — capability registry, receipt-folding, and fail-closed dispatch-policy library (BSL 1.1)
+  - [hapax-research-ledger](https://github.com/hapax-systems/hapax-research-ledger) — machine-readable evidence ledger and commitment scoring records
+  - [hapax-mcp](https://github.com/hapax-systems/hapax-mcp) — experimental MCP research tooling
+- **Research Weblog:** [hapax.weblog.lol](https://hapax.weblog.lol/)
+- **Contact & Disclosures:** [hrl-han@hapaxresearch.com](mailto:hrl-han@hapaxresearch.com) ([policy](https://hapaxresearch.com/about/#contact))
